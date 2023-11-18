@@ -23,12 +23,17 @@
   flex-direction: column;
 }
 
+.c-col {
+  border-radius: 20px;
+  background-color: blanchedalmond;
+}
+
 .c-left {
   flex: 1;
 }
 
 .c-title {
-  font-size: 60px;
+  font-size: 30px;
   width: 80%;
 }
 

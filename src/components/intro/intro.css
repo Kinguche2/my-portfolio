@@ -34,6 +34,11 @@
   overflow: hidden;
 }
 
+.i-desc {
+  font-style: italic;
+  font-size: large;
+}
+
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;

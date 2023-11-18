@@ -1,32 +1,35 @@
+import gig from "../src/img/officialgiglink.png";
+import gi from "../src/img/movie-mine-1.png";
+
 export const products = [
   {
     id: 1,
-    img: "https://i.pinimg.com/564x/4c/73/83/4c73832a83589553ea3c5a71e9fc2480.jpg",
-    link: "http://lama.dev",
+    img: "https://i.pinimg.com/736x/85/13/51/8513517d11e047a9917377df930b6a71.jpg",
+    link: "https://movie-mine-2.netlify.app/",
   },
   {
     id: 2,
-    img: "https://i.pinimg.com/564x/89/8d/35/898d35ccd797899c38b95a85157a6bc8.jpg",
-    link: "http://lama.dev",
+    img: gig,
+    link: "https://officialgiglink.com/",
   },
   {
     id: 3,
-    img: "https://i.pinimg.com/564x/85/72/cc/8572cca7244b259557753255c23ffe87.jpg",
-    link: "http://lama.dev",
+    img: gi,
+    link: "https://movie-mine.netlify.app/",
   },
   {
     id: 4,
-    img: "https://i.pinimg.com/564x/6a/2a/34/6a2a34b2afc0fd57dc33d316f437303e.jpg",
-    link: "http://lama.dev",
+    img: "https://i.pinimg.com/originals/b9/fa/58/b9fa58bc2774253b64eb7beaad4e3958.jpg",
+    link: "https://i.pinimg.com/originals/b9/fa/58/b9fa58bc2774253b64eb7beaad4e3958.jpg",
   },
   {
     id: 5,
-    img: "https://i.pinimg.com/564x/26/6f/35/266f35cb3e07daa453a66bf095cedce3.jpg",
-    link: "http://lama.dev",
+    img: "https://i.pinimg.com/564x/2a/33/43/2a33438b24adf6ac0645e7ec195e8639.jpg",
+    link: "https://github.com/Kinguche2",
   },
   {
     id: 6,
     img: "https://i.pinimg.com/564x/99/e8/09/99e809f8b751b68f09aa7ae771847c68.jpg",
-    link: "http://lama.dev",
+    link: "https://github.com/Kinguche2",
   },
 ];

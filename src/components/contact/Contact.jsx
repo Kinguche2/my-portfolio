@@ -43,21 +43,45 @@ const Contact = () => {
               ucheogbonnak@gmail.com
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+              <img className="c-icon" src={Address} alt="" />7 Ijegun-Ikotun
+              Road, Alimosho LGA, Lagos
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>I am available</b> for freelancing and full-time jobs if the
+            right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea name="message" rows="5" placeholder="message" />
+            <input
+              type="text"
+              placeholder="Name"
+              name="user_name"
+              required
+              className="c-col"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              name="user_subject"
+              required
+              className="c-col"
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              name="user_email"
+              required
+              className="c-col"
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="message"
+              required
+              className="c-col"
+            />
             <button>Submit</button>
             {done && "Thank you ..."}
           </form>

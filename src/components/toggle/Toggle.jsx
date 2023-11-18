@@ -1,7 +1,7 @@
 import React from "react";
 import "./toggle.css";
-import Sun from "../../img/sun.jpg";
-import Moon from "../../img/moon.jpg";
+import Sun from "../../img/sun3.png";
+import Moon from "../../img/moon2.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context.jsx";
 

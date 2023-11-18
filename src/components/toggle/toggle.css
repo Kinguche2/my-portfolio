@@ -3,7 +3,7 @@
   height: 25px;
   border-radius: 20px;
   border: 1pz solid #999;
-  background-color: white;
+  background-color: blanchedalmond;
   position: fixed;
   top: 10px;
   right: 10px;
@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  image-resolution: 40%;
 }
 
 .t-icon {
@@ -22,7 +23,8 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #999;
+  background-color: #424242;
   position: absolute;
   cursor: pointer;
+  caret-color: transparent;
 }
