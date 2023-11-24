@@ -5,6 +5,9 @@
 
 .i-left {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .i-right {
@@ -32,11 +35,6 @@
 .i-title {
   height: 50px;
   overflow: hidden;
-}
-
-.i-desc {
-  font-style: italic;
-  font-size: large;
 }
 
 .i-title-wrapper {
@@ -90,4 +88,22 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc {
+    display: none;
+  }
 }
